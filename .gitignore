@@ -2,3 +2,5 @@ node_modules
 dist
 *.pem
 certs/
+.DS_Store
+.claude/
