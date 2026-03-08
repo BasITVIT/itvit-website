@@ -640,15 +640,13 @@ export default function App() {
                 <span className="sig-section-label">Wie wij zijn</span>
                 <h2 className="sig-h2">Gebouwd door engineers,<br />voor bedrijven.</h2>
                 <p className="sig-about-body">
-                  ITVIT IT-Solutions is een Nederlands IT-adviesbureau gespecialiseerd in
-                  netwerkinfrastructuur, cloudoplossingen en beheerde IT-diensten. Opgericht door
-                  ervaren IT-engineers, combineren wij diepgaande technische kennis met een
-                  praktische, bedrijfsgerichte aanpak.
+                  ITVIT IT-Solutions is een zelfstandige IT-dienstverlener gespecialiseerd in
+                  netwerkinfrastructuur, cloudoplossingen en beheerde IT-diensten. Met diepgaande
+                  technische kennis en een persoonlijke aanpak ben ik uw vaste IT-partner.
                 </p>
                 <p className="sig-about-body">
-                  Wij werken nauw samen met het midden- en kleinbedrijf door heel Nederland om
-                  IT-omgevingen te ontwerpen, implementeren en onderhouden die betrouwbaar, veilig
-                  en klaar voor groei zijn.
+                  Ik werk uitsluitend voor bedrijven in de Bollenstreek — zodat ik snel ter plaatse
+                  ben, uw omgeving goed ken en u altijd een vertrouwd aanspreekpunt heeft.
                 </p>
                 <div className="sig-techs-label">Technologieën &amp; Partners</div>
                 <div className="sig-techs">
@@ -694,7 +692,7 @@ export default function App() {
                   {[
                     { code: "EM", label: "E-mail", value: "info@itvit.nl", href: "mailto:info@itvit.nl" },
                     { code: "TL", label: "Telefoon", value: "06-83569318", href: "tel:+31683569318" },
-                    { code: "LO", label: "Locatie", value: "Nederland", href: null },
+                    { code: "LO", label: "Locatie", value: "Bollenstreek", href: null },
                   ].map(({ code, label, value, href }) => (
                     <div key={label} className="sig-contact-item">
                       <div className="sig-contact-icon">
