@@ -68,7 +68,7 @@ const WHY = [
   },
   {
     title: "Snel en persoonlijk",
-    desc: "Bij ITVIT bereikt u altijd een vertrouwd aanspreekpunt. Geen callcenter, geen wachtrijen — gegarandeerde respons binnen 4 uur.",
+    desc: "Bij ITVIT bereikt u altijd een vertrouwd aanspreekpunt. Geen callcenter, geen wachtrijen — gegarandeerde respons binnen 12 uur.",
   },
   {
     title: "Gebouwd om mee te groeien",
@@ -669,7 +669,7 @@ export default function App() {
                 ))}
                 <div className="sig-sla-card">
                   <div className="sig-sla-label">Gegarandeerde reactietijd</div>
-                  <div className="sig-sla-val">&lt;&nbsp;4 uur</div>
+                  <div className="sig-sla-val">&lt;&nbsp;12 uur</div>
                   <div className="sig-sla-note">Via SLA · werkdagen &amp; weekend</div>
                 </div>
               </div>
