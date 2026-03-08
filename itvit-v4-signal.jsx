@@ -63,16 +63,16 @@ const STATS = [
 
 const WHY = [
   {
-    title: "Technisch diepgaand",
-    desc: "Onze engineers denken mee op architectuurniveau — structurele oplossingen, geen symptoombestrijding.",
+    title: "Meer dan alleen support",
+    desc: "Wij denken proactief mee over uw IT-omgeving — van infrastructuur tot strategie. Geen ticketsysteem, maar een vaste partner die uw bedrijf écht kent.",
   },
   {
-    title: "Altijd bereikbaar",
-    desc: "Met een gegarandeerde reactietijd van minder dan 4 uur bent u nooit lang aan uw lot overgelaten.",
+    title: "Snel en persoonlijk",
+    desc: "Bij ITVIT bereikt u altijd een vertrouwd aanspreekpunt. Geen callcenter, geen wachtrijen — gegarandeerde respons binnen 4 uur.",
   },
   {
-    title: "Groei-ready",
-    desc: "Wij bouwen IT-omgevingen die meegroeien met uw organisatie — schaalbaar en toekomstbestendig.",
+    title: "Gebouwd om mee te groeien",
+    desc: "Of u nu 5 of 500 medewerkers hebt — wij bouwen IT-omgevingen die schaalbaar zijn en klaar voor wat er morgen komt.",
   },
 ];
 
