@@ -4,16 +4,11 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   base: "/itvit-website/",
-  plugins: [
-    react(),
-    tailwindcss(),
-    {
-      name: "entry",
-      transformIndexHtml: (html) =>
-        html.replace("/src/main.jsx", "/src/main-v4.jsx"),
-    },
-  ],
+  plugins: [react(), tailwindcss()],
   build: {
     outDir: "dist",
+    rollupOptions: {
+      input: "index-v4.html",
+    },
   },
 });
