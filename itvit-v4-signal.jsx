@@ -536,7 +536,7 @@ export default function App() {
         <nav className="sig-nav">
           <div className="sig-nav-inner">
             <button className="sig-logo" onClick={() => scrollTo("home")}>
-              <img src="/brand/itvit-logo-kleur.svg" alt="itvit IT-Solutions" style={{ height: "36px", width: "auto" }} />
+              <img src={`${import.meta.env.BASE_URL}brand/itvit-logo-kleur.svg`} alt="itvit IT-Solutions" style={{ height: "36px", width: "auto" }} />
             </button>
             <div className="sig-nav-links">
               {NAV_ITEMS.map(({ id, label }) => (
@@ -753,7 +753,7 @@ export default function App() {
         <footer className="sig-footer">
           <div className="sig-footer-inner">
             <div className="sig-footer-logo">
-              <img src="/brand/itvit-logo-wit-transparant.svg" alt="itvit IT-Solutions" style={{ height: "32px", width: "auto" }} />
+              <img src={`${import.meta.env.BASE_URL}brand/itvit-logo-wit-transparant.svg`} alt="itvit IT-Solutions" style={{ height: "32px", width: "auto" }} />
             </div>
             <div className="sig-footer-contact">
               <a href="mailto:info@itvit.nl" className="sig-footer-link">info@itvit.nl</a>
