@@ -1,0 +1,30 @@
+{
+  "name": "itvit-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.v1.config.js",
+    "dev:v1": "vite --config vite.v1.config.js",
+    "dev:v2": "vite --config vite.v2.config.js",
+    "dev:v3-corporate": "vite --config vite.v3-corporate.config.js",
+    "dev:v3-glass": "vite --config vite.v3-glass.config.js",
+    "dev:v3-terminal": "vite --config vite.v3-terminal.config.js",
+    "dev:v4": "vite --config vite.v4.config.js",
+    "dev:all": "concurrently -n v1,v2,v3c,v3g,v3t,v4 -c cyan,yellow,blue,magenta,green,white \"npm run dev:v1\" \"npm run dev:v2\" \"npm run dev:v3-corporate\" \"npm run dev:v3-glass\" \"npm run dev:v3-terminal\" \"npm run dev:v4\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "concurrently": "^9.2.1",
+    "lucide-react": "^0.575.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
+  }
+}

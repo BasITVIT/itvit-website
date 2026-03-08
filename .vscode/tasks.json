@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Dev: Alle varianten",
+      "type": "shell",
+      "command": "npm run dev:all",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: v1 dark-cyan (5173)",
+      "type": "shell",
+      "command": "npm run dev:v1",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: v2 navy-orange (5174)",
+      "type": "shell",
+      "command": "npm run dev:v2",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: v3 corporate (5175)",
+      "type": "shell",
+      "command": "npm run dev:v3-corporate",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: v3 glass (5176)",
+      "type": "shell",
+      "command": "npm run dev:v3-glass",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: v3 terminal (5177)",
+      "type": "shell",
+      "command": "npm run dev:v3-terminal",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
